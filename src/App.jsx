@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import Game from "./components/Game";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Hello by number guess game</h1>
+      <h1>number guess game between 0 and 10</h1>
+      <Game />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
